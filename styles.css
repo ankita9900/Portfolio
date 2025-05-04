@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0e0e;
+    color: #d0ff00;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo{
+    height: 55px;
+    width: 70px;
+  }
+  
+  nav .nav-btn {
+    background: transparent;
+    border: 2px solid #d0ff00;
+    color: #d0ff00;
+    padding: 5px 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  nav .nav-btn.active {
+    background-color: #d0ff00;
+    color: #0e0e0e;
+  }
+  
+  .main-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 60px 0 40px;
+    text-align: center;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    position: relative;
+    left: 280px;
+  }
+  
+  .tag1 {
+    border: 2px solid #d0ff00;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    rotate: 15deg;
+  }
+
+  .tag2 {
+    border: 2px solid #d0ff00;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    top: 40px;
+    left: 275px;
+    position: absolute;
+    rotate: 5deg;
+
+  }
+
+  .tag3 {
+    border: 2px solid #d0ff00;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    position: relative;
+    top: 57px;
+    left: -320px;
+    rotate: -34deg;
+  }
+
+  .tag4 {
+    border: 2px solid #d0ff00;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    position: relative;
+    top: 65px;
+    left: -343px;
+  } 
+
+  .tag5 {
+    border: 2px solid #d0ff00;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    position: relative;
+    left: -462px;
+    top: 20px;
+    rotate: -10deg;
+  }
+
+  .tag6 {
+    border: 2px solid #d0ff00;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    position: relative;
+    top: 82px;
+    left: -620px;
+    rotate: -15deg;
+  }
+  
+  .tag.highlight1 {
+    background-color: #d0ff00;
+    color: #0e0e0e;
+    padding: 10px 20px;
+    border-radius: 30px;
+    top:90px;
+    left:-133px;
+    position: relative;
+    rotate: -9deg;
+  }
+
+  .tag.highlight2 {
+    background-color: #d0ff00;
+    color: #0e0e0e;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: relative;
+    left:-155px;
+    rotate: -12deg;
+  }
+
+  .tag.highlight3 {
+    background-color: #d0ff00;
+    color: #0e0e0e;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: relative;
+    top: 30px;
+    left: -434px;
+    rotate: 20deg;
+  }
